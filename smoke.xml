@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+
+    <test name="Smoke module 9">
+        <classes>
+            <class name="renastech.Day9.C1_PropertiesPractice"></class>
+            <class name="renastech.Day9.C2_SmartBearPractice"></class>
+            <class name="renastech.Day9.C3_JSExamples"></class>
+            <class name="renastech.Day9.C4_DriverUtilPractice"></class>
+
+        </classes>
+
+
+    </test>
+
+</suite>

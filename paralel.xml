@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+    <test name="regression renastech" parallel="classes" thread-count="5">
+
+        <classes>
+            <class name="renastech.Day2.C1_Google_Title_Verification"></class>
+            <class name="renastech.Day3.C1_Locator"></class>
+            <class name="renastech.Day4.C3_RadioButtons"></class>
+            <class name="renastech.Day5.C3_DropDown"></class>
+            <class name="renastech.Day6.C1_SmartBearLogin"></class>
+        </classes>
+    </test>
+
+</suite>
